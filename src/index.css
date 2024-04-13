@@ -1,0 +1,61 @@
+/* @import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities"; */
+
+.navbar {
+  max-width: 700px;
+  margin: auto;
+  padding-bottom: 20px;
+  border-bottom: 2px solid Black;
+  display: flex;
+  justify-content: end;
+}
+
+.navbar a {
+  padding-left: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.navbar a:hover {
+  color: red;
+}
+
+/* create form  */
+.personal-info-form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  padding-top: 30px;
+}
+
+.personal-info-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.personal-info-form input[type="text"],
+.personal-info-form input[type="number"],
+.personal-info-form input[type="email"] {
+  width: calc(100% - 12px);
+  padding: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.personal-info-form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.personal-info-form button:hover {
+  background-color: #45a049;
+}
