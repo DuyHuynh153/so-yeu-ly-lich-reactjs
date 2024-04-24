@@ -23,18 +23,22 @@
 
 /* create form  */
 .personal-info-form {
-  max-width: 400px;
+  max-width: 800px;
   margin: auto;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #f9f9f9;
   padding-top: 30px;
+  display: grid;
+  grid-template-columns: 400px 400px;
 }
-
 .personal-info-form label {
   display: block;
-  margin-bottom: 10px;
+}
+
+.personal-info-form div {
+  padding: 20px;
 }
 
 .personal-info-form input[type="text"],
@@ -58,4 +62,10 @@
 
 .personal-info-form button:hover {
   background-color: #45a049;
+}
+
+/* Path: so_yeu_ly_lich/src/components/CreateForm.jsx */
+.personal-info label {
+  display: block;
+  padding-top: 20px;
 }
